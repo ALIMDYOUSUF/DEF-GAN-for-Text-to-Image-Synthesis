@@ -1,4 +1,4 @@
-# Generate Superior Quality Images with Color Consistency Stabilization Using DpDCAE-GAN  
+![A group of people on skis stand in the snow-dc](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/b3a48608-1b23-4901-a0dd-ee9b814d3a63)# Generate Superior Quality Images with Color Consistency Stabilization Using DpDCAE-GAN  
 **Data**
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
 1. Download our preprocessed char-CNN-RNN text embeddings for [birds](https://drive.google.com/open?id=0B3y_msrWZaXLT1BZdVdycDY5TEE) and [flowers](https://drive.google.com/open?id=0B3y_msrWZaXLaUc0UXpmcnhaVmM) and save them to `Data/`.
@@ -83,20 +83,12 @@ and z ∼ p(z).
 
 For all our experiments, we use convolutional architectures and use backward convolution (aka.fractional striding) with stride 2 to upscale images in Dec. Backward convolution is achieved by flipping the convolution direction such that striding causes upsampling. Our models are trained with RMSProp using a learning rate of 0.0003 and a batch size of 64.
 ## Example
+![abd89a8ad576f5d453d01ef2f7b83d0e](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/826003e1-5b41-426c-9208-abc4858ccc78)
+![output  A small yellow bird with a black crown and a short black pointed beak](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/26e7dfde-d539-4218-a537-b565754c477e)
+![A group of people on skis stand in the snow-dc](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/a7d78cef-767d-4637-9537-5e255d1de2d1)
+![beef pizza dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/423d7f82-d72b-4ce9-acec-3da75c266426)
+![output vae-gan this bird has a yellow crest and black beak](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/196056f7-562c-4495-9e92-bf6cc42a8f18)
 
-![image](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/e8e38d2b-5079-458c-839d-07edc13fcca1)
-![bedroom with clean dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/05c9967b-0a79-4c2d-9618-25abd56f8f0d)
-
-
-![beef pizza dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/d3c7cd1f-bda3-4506-b08f-845de9cb0a1f)
-![dcvae skis 2](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/a190818d-42de-4937-9052-aacfbffba346)
-![A small bird with varying shades of brown and white under the eyes-dc](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/7d3c5e43-f690-4b60-bd62-f47c09a21439)
-
-![A flower with long pink ![A small yellow bird with a black crown and a short black pointed beak-dc](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/5dfc1632-595a-4ca9-839f-f4e48bcbebd6)
-petals and raised orange stamen dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/ccd4eba8-3a75-420f-a186-3313416a832d)
-![church](https://github.com/ALIMDYOUSUF/DCVAE-GAN/assets/91628312/6519c8eb-87cb-49bf-83d3-33a4909fe2f7)
-
-![the gray bird has a light grey head and grey webbed feet dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN/assets/91628312/db78ae5c-b054-4810-9273-11194c4028c2)
 
 **Reference**
 - `StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks`
