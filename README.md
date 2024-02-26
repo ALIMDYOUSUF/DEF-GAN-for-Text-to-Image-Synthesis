@@ -1,12 +1,12 @@
 ## Example
 ![abd89a8ad576f5d453d01ef2f7b83d0e](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/826003e1-5b41-426c-9208-abc4858ccc78)
-![output  A small yellow bird with a black crown and a short black pointed beak](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/26e7dfde-d539-4218-a537-b565754c477e)
+![output  A small yellow bird with a black crown and a short black pointed beak](https://github.com/ALIMDYOUSUF/DEF-GAN-for-Text-to-Image-Synthesis/assets/91628312/26e7dfde-d539-4218-a537-b565754c477e)
 ![A group of people on skis stand in the snow-dc](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/a7d78cef-767d-4637-9537-5e255d1de2d1)
 ![beef pizza dcvae](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/423d7f82-d72b-4ce9-acec-3da75c266426)
 ![output vae-gan this bird has a yellow crest and black beak](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/196056f7-562c-4495-9e92-bf6cc42a8f18)
 
 
-# Generate Superior Quality Images with Color Consistency Stabilization Using DpDCAE-GAN  
+# Generate Superior Quality Images with Color Consistency Stabilization Using DEF-GAN  
 **Data**
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
 1. Download our preprocessed char-CNN-RNN text embeddings for [birds](https://drive.google.com/open?id=0B3y_msrWZaXLT1BZdVdycDY5TEE) and [flowers](https://drive.google.com/open?id=0B3y_msrWZaXLaUc0UXpmcnhaVmM) and save them to `Data/`.
@@ -17,10 +17,10 @@ https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
   - For flowers: `python misc/preprocess_flowers.py`
 
 **Training**
-- The steps to train a DpDCAE-GAN model on the CUB dataset using our preprocessed data for birds.
+- The steps to train a DEF-GAN model on the CUB dataset using our preprocessed data for birds.
   - Initial: train initial GAN (e.g., for 500-600 epochs) `python initial/run_exp.py --cfg initial/cfg/birds.yml --gpu 0`
   - Final: train final GAN (e.g., for another 500-600 epochs) `python final/run_exp.py --cfg final/cfg/birds.yml --gpu 1`
-- Change `birds.yml` to `flowers.yml` to train a DpDCAE-GAN model on LSUN dataset using our preprocessed data for chourch and bedroom.
+- Change `birds.yml` to `flowers.yml` to train a DEF-GAN model on LSUN dataset using our preprocessed data for chourch and bedroom.
 - `*.yml` files are example configuration files for training/testing our models.
 - If you want to try your own datasets, [here](https://github.com/soumith/ganhacks) are some good tips about how to train GAN. Also, we encourage to try different hyper-parameters and architectures, especially for more complex datasets.
 
@@ -53,10 +53,10 @@ python 3.10
 [Torch 2](http://torch.ch/docs/getting-started.html#_) is needed, if use the pre-trained char-CNN-RNN text encoder.
 
 In addition, please add the project folder to PYTHONPATH and `pip install` the following packages:
- - `A suitable conda environment named DDpCAE can be created and activated with:`
+ - `A suitable conda environment named DEF can be created and activated with:`
 
  - `conda env create -f environment.yaml`
-- `conda activate DpDCAE`
+- `conda activate DEF`
 - `pip install`
 - `prettytensor`
 - `progressbar`
@@ -69,7 +69,7 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 
 ## Introduction
 
-* This paper combines DpDCAE into an unsupervised generative model that simultaneously learns to encode, generate and compare dataset samples.
+* This paper combines DEF into an unsupervised generative model that simultaneously learns to encode, generate and compare dataset samples.
 
 * It shows that generative models trained with learned similarity measures produce better image samples than models trained with element-wise error measures.
 
