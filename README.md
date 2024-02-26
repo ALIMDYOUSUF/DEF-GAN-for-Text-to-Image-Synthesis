@@ -6,7 +6,7 @@
 ![output vae-gan this bird has a yellow crest and black beak](https://github.com/ALIMDYOUSUF/DpDCAE-GAN-for-Text-to-Image-Synthesis/assets/91628312/196056f7-562c-4495-9e92-bf6cc42a8f18)
 
 
-# Generate Superior Quality Images with Color Consistency Stabilization Using DEF-GAN  
+# Generate Superior Quality Images by Using DEF-GAN  
 **Data**
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
 1. Download our preprocessed char-CNN-RNN text embeddings for [birds](https://drive.google.com/open?id=0B3y_msrWZaXLT1BZdVdycDY5TEE) and [flowers](https://drive.google.com/open?id=0B3y_msrWZaXLaUc0UXpmcnhaVmM) and save them to `Data/`.
