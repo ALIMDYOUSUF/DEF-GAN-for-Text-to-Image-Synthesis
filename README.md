@@ -92,10 +92,11 @@ and z ∼ p(z).
 For all our experiments, we use convolutional architectures and use backward convolution (aka.fractional striding) with stride 2 to upscale images in Dec. Backward convolution is achieved by flipping the convolution direction such that striding causes upsampling. Our models are trained with RMSProp using a learning rate of 0.0003 and a batch size of 64.
 
 **Reference**
+- `RiFeGAN2: Rich Feature Generation for Text-to-Image Synthesis from Constrained PriorKnowledge`
+- `Multi-Sentence Complementarily Generation for Text-to-Image Synthesis`
+- `Feature-Grounded Single-Stage Text-to-Image Generation`
 - `StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks`
-- `Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks`
-- `Generative Adversarial Text to Image Synthesis`
-- `AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks`
+- `DR-GAN: Distribution Regularization for Text-to-Image Generation`
 
 
 
